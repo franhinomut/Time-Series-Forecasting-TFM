@@ -1,0 +1,151 @@
+TFM2_DSC_DS_Market project
+--------------------------
+
+Tarea (Objetivo)
+----------------
+
+Proyecto final del Master en Data Science: el caso de uso de DSMarket. El proyecto se plantea como un ejercicio de role play, 
+dividido en varias tareas que tendré que completar durante los meses siguientes al inicio del master, y que que presenté al final del máster.
+
+Este ejercicio práctico tiene como objetivo recrear un escenario de trabajo realista para un científico de datos, en el que los requerimientos están poco
+(o nada) definidos (¡bienvenido a la incertidumbre de la ciencia de datos!). El éxito de los diferentes proyectos dependerá a menudo de la combinación de
+los tres tipos principales de habilidades de las que ya hemos hablado tanto (programación + analítica + negocio).
+
+Durante el ejercico me convierto en Nicole, una científica de datos sénior que se une al departamento financiero de una pequeña cadena de supermercados: DSMarket.
+
+Contexto
+--------
+
+DSMarket (anteriormente conocida como TradiStores) es una pequeña cadena de centros comerciales en los Estados Unidos que llega algo
+más tarde a la transformación digital que ha revolucionado el sector de retail durante los últimos años. Su cambio de nombre es solo el
+primer paso de un plan disruptivo de cinco años para remodelar completamente cada proceso dentro de la empresa. DSMarket ha
+incorporado a Michelle Huggins como su nueva Chief Digital Officer. Después de más de 15 años de experiencia liderando las áreas de
+Marketing Digital de empresas clave dentro del sector retail, Michelle está planeando explotar el activo clave que DSMarket ha estado
+acumulando pero ignorando durante demasiado tiempo: ¡sus datos!
+
+Junto con los muchos especialistas en marketing digital que Michelle está contratando durante el primer año, solo ha incluido a un
+científico de datos. Las iniciativas de datos durante el primer año se centrarán en la estandarización y transformación de las fuentes de
+datos de la compañía, y en la migración de todas las fuentes y procesos de datos a la nube. Los ingenieros de datos y los arquitectos de
+datos serán los principales perfiles tecnológicos requeridos. Sin embargo, DSMarket está interesado en incorporar un científico de datos
+senior para impulsar las iniciativas de DS con mayor prioridad. Se planea que el equipo de DS aumente rápidamente a partir del segundo
+año.
+
+Vosotros seréis Nicole. Nicole ha sido contratada como científica de datos senior por la nueva Chief Digital Officer. Sin embargo, reportará
+directamente a Paul Rogers, el Director Financiero de la compañía. Las iniciativas de DS que se han priorizado son las de mayor
+importancia para el departamento financiero. Las predicciones de ventas en DSMarket siempre se han hecho utilizando enfoques muy
+rudimentarios, y los márgenes de error obtenidos están afectando a muchas áreas de la empresa. La magnitud de esos errores dejó de ser
+aceptable hace mucho tiempo. Además, muchos de los procesos internos dentro de la empresa (estimaciones de stock, optimización de
+precios, entregas, predicciones de stockout,...) son ahora mismo procesos muy manuales con una fuerte dependencia de la experiencia
+empresarial, y su optimización mediante métodos de IA se ha incluido como parte del plan de 5 años que la empresa ha elaborado.
+
+Tarea 1: Análisis
+-----------------
+
+From: Michelle (Chief Digital Officer)
+To: Nicole
+CC: Paul (Finance Director)
+
+Hola Nicole,
+
+Espero que te estés adaptando bien al nuevo rol. Martin me ha comentado que ya has podido
+acceder a nuestras bases de datos. ¡Me alegra escuchar eso!
+
+Desde que me uní a DSMarket, he querido analizar en profundidad el estado actual de la empresa.
+Hasta ahora solo he podido ir echando un ojo a las tendencias de ventas globales que me han ido
+pasando, pero me gustaría evaluar desde ya cada ángulo de nuestra actividad. Me gustaría que me
+ayudaras con eso. Te agradecería que comenzaras a mirar los datos de Nueva York, Boston y
+Filadelfia. Mi intuición me dice que probablemente tenemos productos que ya no son tan
+populares, y es probable que los productos más populares varíen entre ciudades, o incluso entre
+tiendas (que también pueden variar en precios). Nuestras acciones de marketing tendrían que
+explotar esas diferencias. ¡Necesitamos entender cada detalle del negocio! Confío en ti para eso ☺.
+
+Sería bueno que Paul y tú presentarais vuestros resultados a la capa ejecutiva. ¿Qué fecha sería
+razonable para programar esa reunión? Muchas gracias Nicole!!
+
+M
+
+     ----------------------------
+
+From: Michelle (Chief Digital Officer)
+To: Nicole
+CC: Paul (Finance Director)
+
+Hola Nicole,
+
+Casi se me olvida. ¿Crees que podrías trabajar también en un servicio de BI que nos permitiera
+hacer seguimiento de los principales resultados de tu análisis de forma regular? Esto la verdad es
+que sería muy útil para la capa ejecutiva. Usa la solución para dashboards con la que se sienta más
+cómoda.
+
+Gracias de nuevo,
+
+M
+
+
+Tarea 2: Clustering
+-------------------
+
+Hola Nicole,
+
+En primer lugar, ¡bienvenida a la empresa!
+
+Hablando con Michelle, hemos pensado que sería ideal que pudiéramos identificar grupos de
+productos que se comportan de manera similar. Michelle estaba diciendo que con tu magia es
+fácil identificar grupos de productos similares, y tales grupos serán súper útiles para evaluar el
+rendimiento de nuestras diferentes campañas. ¿Cuántos grupos crees que deberíamos
+considerar? 5? 10? 20?
+
+Además, ¿crees que podríamos encontrar un enfoque ”similar" para identificar cómo de
+similares son las tiendas entre sí? ¿La agrupación de tiendas también tendría sentido aquí?
+¿Podrías hacer eso también?
+
+¡Me alegra que finalmente podamos contar con alguien con tus habilidades dentro del equipo!
+
+Saludos,
+
+Joelle
+
+Tarea 3: Predicción de Ventas
+-----------------------------
+
+Buenos días Nicole,
+
+Espero que tu primera semana haya ido bien. He visto que ya te has vuelto bastante popular.
+Ahora que ya tienes acceso a las bases de datos de la empresa, hay una iniciativa en particular
+en la que me gustaría que te enfocaras. DSMarket siempre ha dependido de enfoques
+rudimentarios para predecir las ventas de productos. Como discutimos durante tu entrevista, la
+razón principal detrás de tu incorporación temprana es el desarrollo de un nuevo enfoque para
+la predicción. Tenemos un número importante de casos de uso que dependen de la precisión de
+esas predicciones. Estoy seguro de que con tu larga experiencia con modelos predictivos
+podemos hacer un trabajo mucho mejor de lo que estamos haciendo ahora.
+
+Hasta ahora, siempre hemos ido prediciendo las ventas a nivel de tienda-producto, y para
+obtener ventas agregadas por departamento/tienda/ciudad sumamos las predicciones
+independientes. ¿Seguiría siendo un enfoque válido? Puedes empezar con predicciones de 28
+días (4 semanas).
+Paul
+
+Tarea 4: Caso de uso de abastecimiento de tiendas
+-------------------------------------------------
+
+Hola Nicole,
+
+¿Cómo van esas predicciones de ventas? El Departamento de Operaciones ya está pensando en
+aplicar tus modelos predictivos para uno de sus casos de uso más críticos: la reposición en tiendas.
+El abastecimiento de stock a tiendas se lleva a cabo de manera semanal, al principio de cada
+semana (aunque si es necesario, el stock de algunos productos se puede reponer diariamente).
+Probablemente ya estés visualizando la importancia de las predicciones de ventas para eso.
+Minimizar el stock remanente es el sueño de todo retailer, pero ese sueño es aún más fuerte para
+los artículos de supermercado.
+
+¿Podrías redactar una propuesta que detalle tu solución para aplicar los modelos de ventas al caso
+de uso de abastecimiento de tiendas? También tendríamos que especificar las extensiones que los
+modelos puedan requerir, así como los detalles de la productivización del modelo para el caso de
+uso. Martin solicitó el despliegue de una API para su ejecución. ¿Es algo con lo que te sentirías
+cómoda? No te preocupes por la implementación por ahora, centrémonos en ese documento con
+la solución.
+
+Gracias
+
+Paul
+
